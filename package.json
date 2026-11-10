@@ -1,0 +1,35 @@
+{
+  "name": "techpulse-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "TechPulse — local developer intelligence desktop UI",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --pretty false",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@paper-design/shaders-react": "^0.0.82",
+    "@tauri-apps/api": "^2.12.4",
+    "@tauri-apps/plugin-opener": "^2.7.2",
+    "lucide-react": "^1.70.0",
+    "motion": "^14.11.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.5"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.12.4",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "esbuild": "^0.28.2",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.7"
+  }
+}
